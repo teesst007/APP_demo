@@ -1,0 +1,2014 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>楼宇基本信息配置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/楼宇基本信息配置/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/楼宇基本信息配置/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1874" class="ax_default flow_shape">
+        <div id="u1874_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1875" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1876" class="ax_default _一级标题">
+        <div id="u1876_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1877" class="text">
+          <p><span>房产管理-新增楼宇（物业管理员）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1878" class="ax_default sticky_2">
+        <div id="u1878_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1879" class="text">
+          <p><span>1、楼宇编号。编号只能是数字，如果还有非数字情况，再加一个楼宇名称字段进行存储。-----是否所有小区的楼宇都会有数字编号？</span></p><p><span><br></span></p><p><span>2、楼宇类型，枚举值。</span></p><p><span><br></span></p><p><span>3、单元数量与每层户数。单元数量≥1，每个单元都有1个户数值，如果有多个户数值，则按照单元序号依次用短横线‘-’连接，并写入每层户数字段。例如，7-5-5，表示1单元7户，2单元5户，3单元5户。</span></p><p><span><br></span></p><p><span><br></span></p><p><span>4、商铺楼层与每层商铺数量。</span></p><p><span>&nbsp;&nbsp; &nbsp; 1）商铺楼层有多楼，但是每层楼打通，相当于只有1层楼的商铺。例如，楼宇下方2层均是商铺，但是1-2楼打通，只有1楼有20个商铺。此时，商铺楼层字段写入‘2’，表示有2层是商铺；每层商铺数量写入‘20-0’，表示1层楼有20个商铺，2层楼没有，即1-2层楼打通。</span></p><p><span>&nbsp;&nbsp; &nbsp; 2）商铺楼层有多楼，每层楼的商铺单独存在。例如，楼宇下方4层均是商铺，1层30个，2层20个，3层20个，4层25个。此时，商铺楼层字段写入‘4’，每层商铺数量写入‘30-20-20-25’。</span></p><p><span>&nbsp; </span></p><p><span>5、如果不填写建筑面积。则生成的房屋基本信息表中，建筑面积字段都写0.</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1880" class="ax_default flow_shape">
+        <div id="u1880_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1881" class="text">
+          <p><span>选择单元数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1882" class="ax_default arrow">
+        <img id="u1882_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1883" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1884" class="ax_default arrow">
+        <img id="u1884_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1885" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1886" class="ax_default flow_shape">
+        <img id="u1886_img" class="img " src="images/物业费缴费/u67.png"/>
+        <!-- Unnamed () -->
+        <div id="u1887" class="text">
+          <p><span>是否有商铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1888" class="ax_default arrow">
+        <img id="u1888_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1889" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1890" class="ax_default arrow">
+        <img id="u1890_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1891" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1892" class="ax_default _三级标题">
+        <div id="u1892_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1893" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1894" class="ax_default arrow">
+        <img id="u1894_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1895" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1896" class="ax_default arrow">
+        <img id="u1896_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1897" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1898" class="ax_default flow_shape">
+        <div id="u1898_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1899" class="text">
+          <p><span>输入楼宇编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1900" class="ax_default flow_shape">
+        <div id="u1900_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1901" class="text">
+          <p><span>选择楼宇类型</span></p><p><span>（公寓or住宅）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1902" class="ax_default flow_shape">
+        <div id="u1902_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1903" class="text">
+          <p><span>输入楼宇层高</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1904" class="ax_default flow_shape">
+        <div id="u1904_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1905" class="text">
+          <p><span>对应每个单元选择该单元每层户数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1906" class="ax_default flow_shape">
+        <div id="u1906_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1907" class="text">
+          <p><span>选择商铺占用楼层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1908" class="ax_default arrow">
+        <img id="u1908_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1909" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1910" class="ax_default flow_shape">
+        <div id="u1910_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1911" class="text">
+          <p><span>输入每层楼商铺数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1912" class="ax_default arrow">
+        <img id="u1912_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1913" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1914" class="ax_default _三级标题">
+        <div id="u1914_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1915" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1916" class="ax_default flow_shape">
+        <div id="u1916_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1917" class="text">
+          <p><span>填写每户建筑面积</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1918" class="ax_default _三级标题">
+        <div id="u1918_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1919" class="text">
+          <p><span>楼宇编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1920" class="ax_default _三级标题">
+        <div id="u1920_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1921" class="text">
+          <p><span>楼宇类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1922" class="ax_default _三级标题">
+        <div id="u1922_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1923" class="text">
+          <p><span>楼宇层高</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1924" class="ax_default _三级标题">
+        <div id="u1924_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1925" class="text">
+          <p><span>单元数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1926" class="ax_default _三级标题">
+        <div id="u1926_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1927" class="text">
+          <p><span>每层户数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1928" class="ax_default _三级标题">
+        <div id="u1928_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1929" class="text">
+          <p><span>商铺楼层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1930" class="ax_default _三级标题">
+        <div id="u1930_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1931" class="text">
+          <p><span>每层商铺数量</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1932" class="ax_default _三级标题">
+        <div id="u1932_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1933" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1934" class="ax_default _三级标题">
+        <div id="u1934_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1935" class="text">
+          <p><span>住宅</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1936" class="ax_default _三级标题">
+        <div id="u1936_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1937" class="text">
+          <p><span>32</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1938" class="ax_default _三级标题">
+        <div id="u1938_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1939" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1940" class="ax_default _三级标题">
+        <div id="u1940_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1941" class="text">
+          <p><span>7-5-5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1942" class="ax_default _三级标题">
+        <div id="u1942_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1943" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1944" class="ax_default _三级标题">
+        <div id="u1944_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1945" class="text">
+          <p><span>30-20-20-25</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1946" class="ax_default _三级标题">
+        <div id="u1946_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1947" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1948" class="ax_default _三级标题">
+        <div id="u1948_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1949" class="text">
+          <p><span>住宅</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1950" class="ax_default _三级标题">
+        <div id="u1950_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1951" class="text">
+          <p><span>20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1952" class="ax_default _三级标题">
+        <div id="u1952_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1953" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1954" class="ax_default _三级标题">
+        <div id="u1954_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1955" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1956" class="ax_default _三级标题">
+        <div id="u1956_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1957" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1958" class="ax_default _三级标题">
+        <div id="u1958_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1959" class="text">
+          <p><span>20-0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1960" class="compound ax_default arrow" WidgetHeight="154" WidgetWidth="166" CompoundMode="true">
+        <img id="u1960_img" class="singleImg img " src="images/楼宇基本信息配置/u1960.png"/>
+        <div id="u1960p000" class="ax_vector_shape" WidgetTopLeftX="-0.482558139534884" WidgetTopLeftY="-19.25" WidgetTopRightX="0.482558139534884" WidgetTopRightY="-19.25" WidgetBottomLeftX="-0.482558139534884" WidgetBottomLeftY="0" WidgetBottomRightX="0.482558139534884" WidgetBottomRightY="0">
+          <img id="u1960p000_img" class="img " src="images/楼宇基本信息配置/u1960p000.png"/>
+        </div>
+        <div id="u1960p001" class="ax_vector_shape" WidgetTopLeftX="1.05882352941176" WidgetTopLeftY="-20.75" WidgetTopRightX="1.05882352941176" WidgetTopRightY="0" WidgetBottomLeftX="-0.450980392156863" WidgetBottomLeftY="-20.75" WidgetBottomRightX="-0.450980392156863" WidgetBottomRightY="0">
+          <img id="u1960p001_img" class="img " src="images/楼宇基本信息配置/u1960p001.png"/>
+        </div>
+        <div id="u1960p002" class="ax_vector_shape" WidgetTopLeftX="0.428571428571429" WidgetTopLeftY="-20.75" WidgetTopRightX="0.428571428571429" WidgetTopRightY="0" WidgetBottomLeftX="-1.77142857142857" WidgetBottomLeftY="-20.75" WidgetBottomRightX="-1.77142857142857" WidgetBottomRightY="0">
+          <img id="u1960p002_img" class="img " src="images/楼宇基本信息配置/u1960p002.png"/>
+        </div>
+        <div id="u1960p003" class="ax_vector_shape" WidgetTopLeftX="-5.1875" WidgetTopLeftY="-0.28125" WidgetTopRightX="0" WidgetTopRightY="-0.28125" WidgetBottomLeftX="-5.1875" WidgetBottomLeftY="4.53125" WidgetBottomRightX="0" WidgetBottomRightY="4.53125">
+          <img id="u1960p003_img" class="img " src="images/费项关联流程/u1500p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u1961" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1962" class="ax_default _三级标题">
+        <div id="u1962_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1963" class="text">
+          <p><span>否</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1964" class="ax_default flow_shape">
+        <div id="u1964_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1965" class="text">
+          <p><span>生成</span></p><p><span>《楼宇基本信息表》</span></p><p><span>《房屋基本信息表》</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Diamond) -->
+      <div id="u1966" class="ax_default flow_shape">
+        <img id="u1966_img" class="img " src="images/物业费缴费/u67.png"/>
+        <!-- Unnamed () -->
+        <div id="u1967" class="text">
+          <p><span>是否填写每户</span></p><p><span>建筑面积</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u1968" class="ax_default arrow">
+        <img id="u1968_img" class="img " src="images/楼宇基本信息配置/u1968.png"/>
+        <!-- Unnamed () -->
+        <div id="u1969" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1970" class="ax_default arrow">
+        <img id="u1970_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1971" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1972" class="ax_default flow_shape">
+        <div id="u1972_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1973" class="text">
+          <p><span>生成楼宇单元户型及商铺表</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u1974" class="ax_default arrow">
+        <img id="u1974_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u1975" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1976" class="ax_default _三级标题">
+        <div id="u1976_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1977" class="text">
+          <p><span>是</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1978" class="ax_default _三级标题">
+        <div id="u1978_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1979" class="text">
+          <p><span>《楼宇基本信息表》</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1980" class="ax_default _三级标题">
+        <div id="u1980_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1981" class="text">
+          <p><span>楼宇编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1982" class="ax_default _三级标题">
+        <div id="u1982_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1983" class="text">
+          <p><span>房屋编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1984" class="ax_default _三级标题">
+        <div id="u1984_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1985" class="text">
+          <p><span>单元</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1986" class="ax_default _三级标题">
+        <div id="u1986_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1987" class="text">
+          <p><span>楼层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1988" class="ax_default _三级标题">
+        <div id="u1988_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1989" class="text">
+          <p><span>建筑面积</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1990" class="ax_default _三级标题">
+        <div id="u1990_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1991" class="text">
+          <p><span>房屋类型</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1992" class="ax_default _三级标题">
+        <div id="u1992_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1993" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1994" class="ax_default _三级标题">
+        <div id="u1994_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1995" class="text">
+          <p><span>1-1-5-501</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1996" class="ax_default _三级标题">
+        <div id="u1996_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1997" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u1998" class="ax_default _三级标题">
+        <div id="u1998_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u1999" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2000" class="ax_default _三级标题">
+        <div id="u2000_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2001" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2002" class="ax_default _三级标题">
+        <div id="u2002_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2003" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2004" class="ax_default _三级标题">
+        <div id="u2004_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2005" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2006" class="ax_default _三级标题">
+        <div id="u2006_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2007" class="text">
+          <p><span>1-1-5-502</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2008" class="ax_default _三级标题">
+        <div id="u2008_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2009" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2010" class="ax_default _三级标题">
+        <div id="u2010_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2011" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2012" class="ax_default _三级标题">
+        <div id="u2012_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2013" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2014" class="ax_default _三级标题">
+        <div id="u2014_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2015" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2016" class="ax_default _三级标题">
+        <div id="u2016_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2017" class="text">
+          <p><span>《房屋基本信息表》</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2018" class="ax_default _三级标题">
+        <div id="u2018_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2019" class="text">
+          <p><span>小区编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2020" class="ax_default _三级标题">
+        <div id="u2020_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2021" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2022" class="ax_default _三级标题">
+        <div id="u2022_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2023" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2024" class="ax_default _三级标题">
+        <div id="u2024_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2025" class="text">
+          <p><span>小区编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2026" class="ax_default _三级标题">
+        <div id="u2026_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2027" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2028" class="ax_default _三级标题">
+        <div id="u2028_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2029" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2030" class="ax_default _三级标题">
+        <div id="u2030_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2031" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2032" class="ax_default _三级标题">
+        <div id="u2032_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2033" class="text">
+          <p><span>1-1-5-507</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2034" class="ax_default _三级标题">
+        <div id="u2034_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2035" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2036" class="ax_default _三级标题">
+        <div id="u2036_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2037" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2038" class="ax_default _三级标题">
+        <div id="u2038_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2039" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2040" class="ax_default _三级标题">
+        <div id="u2040_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2041" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2042" class="ax_default _三级标题">
+        <div id="u2042_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2043" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2044" class="ax_default _三级标题">
+        <div id="u2044_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2045" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2046" class="ax_default _三级标题">
+        <div id="u2046_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2047" class="text">
+          <p><span>1-2-5-501</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2048" class="ax_default _三级标题">
+        <div id="u2048_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2049" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2050" class="ax_default _三级标题">
+        <div id="u2050_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2051" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2052" class="ax_default _三级标题">
+        <div id="u2052_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2053" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2054" class="ax_default _三级标题">
+        <div id="u2054_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2055" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2056" class="ax_default _三级标题">
+        <div id="u2056_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2057" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2058" class="ax_default _三级标题">
+        <div id="u2058_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2059" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2060" class="ax_default _三级标题">
+        <div id="u2060_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2061" class="text">
+          <p><span>1-2-5-502</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2062" class="ax_default _三级标题">
+        <div id="u2062_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2063" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2064" class="ax_default _三级标题">
+        <div id="u2064_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2065" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2066" class="ax_default _三级标题">
+        <div id="u2066_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2067" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2068" class="ax_default _三级标题">
+        <div id="u2068_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2069" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2070" class="ax_default _三级标题">
+        <div id="u2070_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2071" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2072" class="ax_default _三级标题">
+        <div id="u2072_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2073" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2074" class="ax_default _三级标题">
+        <div id="u2074_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2075" class="text">
+          <p><span>1-2-5-505</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2076" class="ax_default _三级标题">
+        <div id="u2076_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2077" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2078" class="ax_default _三级标题">
+        <div id="u2078_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2079" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2080" class="ax_default _三级标题">
+        <div id="u2080_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2081" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2082" class="ax_default _三级标题">
+        <div id="u2082_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2083" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2084" class="ax_default _三级标题">
+        <div id="u2084_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2085" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2086" class="ax_default _三级标题">
+        <div id="u2086_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2087" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2088" class="ax_default _三级标题">
+        <div id="u2088_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2089" class="text">
+          <p><span>1-3-5-501</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2090" class="ax_default _三级标题">
+        <div id="u2090_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2091" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2092" class="ax_default _三级标题">
+        <div id="u2092_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2093" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2094" class="ax_default _三级标题">
+        <div id="u2094_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2095" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2096" class="ax_default _三级标题">
+        <div id="u2096_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2097" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2098" class="ax_default _三级标题">
+        <div id="u2098_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2099" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2100" class="ax_default _三级标题">
+        <div id="u2100_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2101" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2102" class="ax_default _三级标题">
+        <div id="u2102_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2103" class="text">
+          <p><span>1-3-5-505</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2104" class="ax_default _三级标题">
+        <div id="u2104_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2105" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2106" class="ax_default _三级标题">
+        <div id="u2106_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2107" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2108" class="ax_default _三级标题">
+        <div id="u2108_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2109" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2110" class="ax_default _三级标题">
+        <div id="u2110_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2111" class="text">
+          <p><span>住房</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2112" class="ax_default _三级标题">
+        <div id="u2112_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2113" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2114" class="ax_default _三级标题">
+        <div id="u2114_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2115" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2116" class="ax_default _三级标题">
+        <div id="u2116_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2117" class="text">
+          <p><span>1-1-1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2118" class="ax_default _三级标题">
+        <div id="u2118_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2119" class="text">
+          <p><span>-</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2120" class="ax_default _三级标题">
+        <div id="u2120_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2121" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2122" class="ax_default _三级标题">
+        <div id="u2122_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2123" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2124" class="ax_default _三级标题">
+        <div id="u2124_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2125" class="text">
+          <p><span>商铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2126" class="ax_default _三级标题">
+        <div id="u2126_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2127" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2128" class="ax_default _三级标题">
+        <div id="u2128_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2129" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2130" class="ax_default _三级标题">
+        <div id="u2130_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2131" class="text">
+          <p><span>1-1-30</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2132" class="ax_default _三级标题">
+        <div id="u2132_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2133" class="text">
+          <p><span>-</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2134" class="ax_default _三级标题">
+        <div id="u2134_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2135" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2136" class="ax_default _三级标题">
+        <div id="u2136_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2137" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2138" class="ax_default _三级标题">
+        <div id="u2138_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2139" class="text">
+          <p><span>商铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2140" class="ax_default _三级标题">
+        <div id="u2140_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2141" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2142" class="ax_default _三级标题">
+        <div id="u2142_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2143" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2144" class="ax_default _三级标题">
+        <div id="u2144_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2145" class="text">
+          <p><span>1-2-20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2146" class="ax_default _三级标题">
+        <div id="u2146_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2147" class="text">
+          <p><span>-</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2148" class="ax_default _三级标题">
+        <div id="u2148_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2149" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2150" class="ax_default _三级标题">
+        <div id="u2150_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2151" class="text">
+          <p><span>82.12</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2152" class="ax_default _三级标题">
+        <div id="u2152_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2153" class="text">
+          <p><span>商铺</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2154" class="ax_default _三级标题">
+        <div id="u2154_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2155" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2156" class="ax_default _三级标题">
+        <div id="u2156_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2157" class="text">
+          <p><span>其他房屋固定信息字段</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2158" class="ax_default _三级标题">
+        <div id="u2158_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2159" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2160" class="ax_default _三级标题">
+        <div id="u2160_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2161" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2162" class="ax_default _三级标题">
+        <div id="u2162_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2163" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2164" class="ax_default _三级标题">
+        <div id="u2164_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2165" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2166" class="ax_default _三级标题">
+        <div id="u2166_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2167" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2168" class="ax_default _三级标题">
+        <div id="u2168_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2169" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2170" class="ax_default _三级标题">
+        <div id="u2170_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2171" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2172" class="ax_default _三级标题">
+        <div id="u2172_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2173" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2174" class="ax_default _三级标题">
+        <div id="u2174_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2175" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2176" class="ax_default _三级标题">
+        <div id="u2176_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2177" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2178" class="ax_default _三级标题">
+        <div id="u2178_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2179" class="text">
+          <p><span>XXXX</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2180" class="ax_default sticky_2">
+        <div id="u2180_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2181" class="text">
+          <p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;color:#FF0000;">房屋编号规则：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp;&nbsp; 1、住房编号。4级，楼宇编号-单元编号-楼层编号-每层楼的房屋编号。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 1）楼宇编号。从楼宇基本信息表中获取，‘楼宇编号’字段。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2）单元编号。从楼宇基本信息表中获取，‘单元数量’字段。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 3）楼层编号。从楼宇基本信息表中获取，‘楼宇层高’和‘商铺楼层’字段。住房楼层编号从（商铺楼层+1）开始，到顶楼。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 4）每层楼的房屋编号。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; a）楼层编号+户型编号。701，最终1-1-7-701</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; b）户型编号。01，最终1-1-7-01</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;color:#FF0000;"><br></span></p><p><span style="font-family:'Arial Negreta', 'Arial Normal', 'Arial';font-weight:700;color:#FF0000;">商铺编号规则：</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp;&nbsp; 1、商铺编号。3级，楼宇编号-楼层编号-户型编号。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 1）楼宇编号。从楼宇基本信息表中获取，‘楼宇编号’字段。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 2）楼层编号。从楼宇基本信息表中获取，‘商铺楼层’字段。</span></p><p><span style="font-family:'Arial Normal', 'Arial';font-weight:400;color:#FFFFFF;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 4）每层楼的商铺编号。从楼宇基本信息表中获取，‘每层商铺数量’字段。</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2182" class="ax_default _三级标题">
+        <div id="u2182_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2183" class="text">
+          <p><span>3</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2184" class="ax_default _三级标题">
+        <div id="u2184_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2185" class="text">
+          <p><span>住宅</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2186" class="ax_default _三级标题">
+        <div id="u2186_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2187" class="text">
+          <p><span>32</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2188" class="ax_default _三级标题">
+        <div id="u2188_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2189" class="text">
+          <p><span>2</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2190" class="ax_default _三级标题">
+        <div id="u2190_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2191" class="text">
+          <p><span>7-6</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2192" class="ax_default _三级标题">
+        <div id="u2192_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2193" class="text">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2194" class="ax_default _三级标题">
+        <div id="u2194_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2195" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2196" class="ax_default _三级标题">
+        <div id="u2196_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2197" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2198" class="ax_default _三级标题">
+        <div id="u2198_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2199" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2200" class="ax_default _三级标题">
+        <div id="u2200_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2201" class="text">
+          <p><span>住宅</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2202" class="ax_default _三级标题">
+        <div id="u2202_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2203" class="text">
+          <p><span>32</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2204" class="ax_default _三级标题">
+        <div id="u2204_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2205" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2206" class="ax_default _三级标题">
+        <div id="u2206_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2207" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2208" class="ax_default _三级标题">
+        <div id="u2208_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2209" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2210" class="ax_default _三级标题">
+        <div id="u2210_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2211" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2212" class="ax_default _三级标题">
+        <div id="u2212_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2213" class="text">
+          <p><span>LGCOCOMC</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2214" class="ax_default _三级标题">
+        <div id="u2214_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2215" class="text">
+          <p><span>25</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2216" class="ax_default _三级标题">
+        <div id="u2216_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2217" class="text">
+          <p><span>户型编号</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2218" class="ax_default _三级标题">
+        <div id="u2218_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2219" class="text">
+          <p><span>01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2220" class="ax_default _三级标题">
+        <div id="u2220_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2221" class="text">
+          <p><span>02</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2222" class="ax_default _三级标题">
+        <div id="u2222_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2223" class="text">
+          <p><span>07</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2224" class="ax_default _三级标题">
+        <div id="u2224_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2225" class="text">
+          <p><span>01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2226" class="ax_default _三级标题">
+        <div id="u2226_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2227" class="text">
+          <p><span>02</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2228" class="ax_default _三级标题">
+        <div id="u2228_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2229" class="text">
+          <p><span>05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2230" class="ax_default _三级标题">
+        <div id="u2230_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2231" class="text">
+          <p><span>01</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2232" class="ax_default _三级标题">
+        <div id="u2232_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2233" class="text">
+          <p><span>05</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2234" class="ax_default _三级标题">
+        <div id="u2234_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2235" class="text">
+          <p><span>1</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2236" class="ax_default _三级标题">
+        <div id="u2236_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2237" class="text">
+          <p><span>30</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2238" class="ax_default _三级标题">
+        <div id="u2238_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2239" class="text">
+          <p><span>20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2240" class="compound ax_default arrow" WidgetHeight="126" WidgetWidth="910" CompoundMode="true">
+        <img id="u2240_img" class="singleImg img " src="images/楼宇基本信息配置/u2240.png"/>
+        <div id="u2240p000" class="ax_vector_shape" WidgetTopLeftX="-0.49038543970295" WidgetTopLeftY="-0.413329167744598" WidgetTopRightX="3.65866707375053" WidgetTopRightY="-17.041830217821" WidgetBottomLeftX="-0.131407873609489" WidgetBottomLeftY="3.27129359486608" WidgetBottomRightX="4.01764463984399" WidgetBottomRightY="-13.3572074552104">
+          <img id="u2240p000_img" class="img " src="images/楼宇基本信息配置/u2240p000.png"/>
+        </div>
+        <div id="u2240p001" class="ax_vector_shape" WidgetTopLeftX="-1.10551300165272" WidgetTopLeftY="-9.36527895881527" WidgetTopRightX="2.31538199934158" WidgetTopRightY="-18.1776929477451" WidgetBottomLeftX="-1.06407291264817" WidgetBottomLeftY="4.58144681446917" WidgetBottomRightX="2.35682208834613" WidgetBottomRightY="-4.23096717446071">
+          <img id="u2240p001_img" class="img " src="images/楼宇基本信息配置/u2240p001.png"/>
+        </div>
+        <div id="u2240p002" class="ax_vector_shape" WidgetTopLeftX="-1.75516173227734" WidgetTopLeftY="-6.6963982945355" WidgetTopRightX="1.05176929422691" WidgetTopRightY="-5.1084711945717" WidgetBottomLeftX="-1.76873375877275" WidgetBottomLeftY="-0.400236084315195" WidgetBottomRightX="1.0381972677315" WidgetBottomRightY="1.1876910156486">
+          <img id="u2240p002_img" class="img " src="images/楼宇基本信息配置/u2240p002.png"/>
+        </div>
+        <div id="u2240p003" class="ax_vector_shape" WidgetTopLeftX="-4.51098901098901" WidgetTopLeftY="-5.54761904761905" WidgetTopRightX="0.489010989010989" WidgetTopRightY="-5.54761904761905" WidgetBottomLeftX="-4.51098901098901" WidgetBottomLeftY="0.452380952380952" WidgetBottomRightX="0.489010989010989" WidgetBottomRightY="0.452380952380952">
+          <img id="u2240p003_img" class="img " src="images/楼宇基本信息配置/u2240p003.png"/>
+        </div>
+        <div id="u2240p004" class="ax_vector_shape" WidgetTopLeftX="-45.5" WidgetTopLeftY="-6.1" WidgetTopRightX="0" WidgetTopRightY="-6.1" WidgetBottomLeftX="-45.5" WidgetBottomLeftY="0.2" WidgetBottomRightX="0" WidgetBottomRightY="0.2">
+          <img id="u2240p004_img" class="img " src="images/楼宇基本信息配置/u2240p004.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u2241" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2242" class="compound ax_default arrow" WidgetHeight="126" WidgetWidth="800" CompoundMode="true">
+        <img id="u2242_img" class="singleImg img " src="images/楼宇基本信息配置/u2242.png"/>
+        <div id="u2242p000" class="ax_vector_shape" WidgetTopLeftX="-0.493540812577974" WidgetTopLeftY="-0.39728874417526" WidgetTopRightX="3.82882981873319" WidgetTopRightY="-29.3366802514781" WidgetBottomLeftX="-0.259131741368821" WidgetBottomLeftY="12.8399713142152" WidgetBottomRightX="4.06323888994234" WidgetBottomRightY="-16.0994201930876">
+          <img id="u2242p000_img" class="img " src="images/楼宇基本信息配置/u2242p000.png"/>
+        </div>
+        <div id="u2242p001" class="ax_vector_shape" WidgetTopLeftX="-1.32040591817798" WidgetTopLeftY="-3.225954182854" WidgetTopRightX="2.55288169199903" WidgetTopRightY="-15.7407113860725" WidgetBottomLeftX="-1.22378463094725" WidgetBottomLeftY="9.21891890864474" WidgetBottomRightX="2.64950297922976" WidgetBottomRightY="-3.29583829457373">
+          <img id="u2242p001_img" class="img " src="images/楼宇基本信息配置/u2242p001.png"/>
+        </div>
+        <div id="u2242p002" class="ax_vector_shape" WidgetTopLeftX="-3.74378997929831" WidgetTopLeftY="-12.2800732836892" WidgetTopRightX="3.38166752255758" WidgetTopRightY="-23.4411090827493" WidgetBottomLeftX="-3.66531394633617" WidgetBottomLeftY="12.8585407828583" WidgetBottomRightX="3.46014355551972" WidgetBottomRightY="1.69750498379828">
+          <img id="u2242p002_img" class="img " src="images/楼宇基本信息配置/u2242p002.png"/>
+        </div>
+        <div id="u2242p003" class="ax_vector_shape" WidgetTopLeftX="-6.8514652568157" WidgetTopLeftY="-38.6763911143768" WidgetTopRightX="3.9527599001475" WidgetTopRightY="-52.6361897953772" WidgetBottomLeftX="-6.79204178945739" WidgetBottomLeftY="24.2852309878263" WidgetBottomRightX="4.01218336750581" WidgetBottomRightY="10.3254323068259">
+          <img id="u2242p003_img" class="img " src="images/楼宇基本信息配置/u2242p003.png"/>
+        </div>
+        <div id="u2242p004" class="ax_vector_shape" WidgetTopLeftX="2.53181476612896" WidgetTopLeftY="0.221064139956492" WidgetTopRightX="-0.424209319666776" WidgetTopRightY="3.9323468322249" WidgetBottomLeftX="2.4663826365731" WidgetBottomLeftY="-3.9380617487581" WidgetBottomRightX="-0.489641449222628" WidgetBottomRightY="-0.226779056489694">
+          <img id="u2242p004_img" class="img " src="images/楼宇基本信息配置/u2242p004.png"/>
+        </div>
+        <div id="u2242p005" class="ax_vector_shape" WidgetTopLeftX="-40" WidgetTopLeftY="-6.1" WidgetTopRightX="0" WidgetTopRightY="-6.1" WidgetBottomLeftX="-40" WidgetBottomLeftY="0.2" WidgetBottomRightX="0" WidgetBottomRightY="0.2">
+          <img id="u2242p005_img" class="img " src="images/楼宇基本信息配置/u2242p005.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u2243" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2244" class="compound ax_default arrow" WidgetHeight="126" WidgetWidth="683" CompoundMode="true">
+        <img id="u2244_img" class="singleImg img " src="images/楼宇基本信息配置/u2244.png"/>
+        <div id="u2244p000" class="ax_vector_shape" WidgetTopLeftX="-0.487518542845534" WidgetTopLeftY="-0.337147014956777" WidgetTopRightX="4.33180374920173" WidgetTopRightY="-32.1032969427051" WidgetBottomLeftX="-0.181387293132088" WidgetBottomLeftY="16.6821873458309" WidgetBottomRightX="4.63793499891518" WidgetBottomRightY="-15.0839625819174">
+          <img id="u2244p000_img" class="img " src="images/楼宇基本信息配置/u2244p000.png"/>
+        </div>
+        <div id="u2244p001" class="ax_vector_shape" WidgetTopLeftX="-1.38709156087256" WidgetTopLeftY="-4.10139414676873" WidgetTopRightX="3.38691563328957" WidgetTopRightY="-15.992360081871" WidgetBottomLeftX="-1.27895397447081" WidgetBottomLeftY="13.7644365827751" WidgetBottomRightX="3.49505321969132" WidgetBottomRightY="1.87347064767282">
+          <img id="u2244p001_img" class="img " src="images/楼宇基本信息配置/u2244p001.png"/>
+        </div>
+        <div id="u2244p002" class="ax_vector_shape" WidgetTopLeftX="-2.39817251808693" WidgetTopLeftY="-6.89523208660603" WidgetTopRightX="2.47887080256791" WidgetTopRightY="-27.704422473035" WidgetBottomLeftX="-2.28770102694269" WidgetBottomLeftY="24.3699716900956" WidgetBottomRightX="2.58934229371215" WidgetBottomRightY="3.56078130366668">
+          <img id="u2244p002_img" class="img " src="images/楼宇基本信息配置/u2244p002.png"/>
+        </div>
+        <div id="u2244p003" class="ax_vector_shape" WidgetTopLeftX="1.81861089385753" WidgetTopLeftY="-0.190277125805579" WidgetTopRightX="-0.408619885305842" WidgetTopRightY="3.29800832556246" WidgetBottomLeftX="1.74616165416868" WidgetBottomLeftY="-3.83985879873317" WidgetBottomRightX="-0.481069124994694" WidgetBottomRightY="-0.351573347365133">
+          <img id="u2244p003_img" class="img " src="images/楼宇基本信息配置/u2244p003.png"/>
+        </div>
+        <div id="u2244p004" class="ax_vector_shape" WidgetTopLeftX="-34.2" WidgetTopLeftY="-6.1" WidgetTopRightX="-0.05" WidgetTopRightY="-6.1" WidgetBottomLeftX="-34.2" WidgetBottomLeftY="0.2" WidgetBottomRightX="-0.05" WidgetBottomRightY="0.2">
+          <img id="u2244p004_img" class="img " src="images/楼宇基本信息配置/u2244p004.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u2245" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2246" class="ax_default arrow">
+        <img id="u2246_img" class="img " src="images/楼宇基本信息配置/u2246.png"/>
+        <!-- Unnamed () -->
+        <div id="u2247" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2248" class="ax_default arrow">
+        <img id="u2248_img" class="img " src="images/楼宇基本信息配置/u2248.png"/>
+        <!-- Unnamed () -->
+        <div id="u2249" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2250" class="ax_default arrow">
+        <img id="u2250_img" class="img " src="images/楼宇基本信息配置/u2250.png"/>
+        <!-- Unnamed () -->
+        <div id="u2251" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2252" class="compound ax_default arrow" WidgetHeight="132" WidgetWidth="436" CompoundMode="true">
+        <img id="u2252_img" class="singleImg img " src="images/楼宇基本信息配置/u2252.png"/>
+        <div id="u2252p000" class="ax_vector_shape" WidgetTopLeftX="-0.777193807561053" WidgetTopLeftY="-3.79364055131007" WidgetTopRightX="0.492836796769575" WidgetTopRightY="-0.0380815783034592" WidgetBottomLeftX="-0.887448749887852" WidgetBottomLeftY="0.171563944435493" WidgetBottomRightX="0.382581854442775" WidgetBottomRightY="3.92712291744211">
+          <img id="u2252p000_img" class="img " src="images/楼宇基本信息配置/u2252p000.png"/>
+        </div>
+        <div id="u2252p001" class="ax_vector_shape" WidgetTopLeftX="0.174469813181114" WidgetTopLeftY="20.9376899499256" WidgetTopRightX="-2.83462579967511" WidgetTopRightY="-2.72026260729442" WidgetBottomLeftX="0.488155918205528" WidgetBottomLeftY="0.136281286740656" WidgetBottomRightX="-2.52093969465069" WidgetBottomRightY="-23.5216712704794">
+          <img id="u2252p001_img" class="img " src="images/楼宇基本信息配置/u2252p001.png"/>
+        </div>
+        <div id="u2252p002" class="ax_vector_shape" WidgetTopLeftX="-0.1" WidgetTopLeftY="-6.4" WidgetTopRightX="21.7" WidgetTopRightY="-6.4" WidgetBottomLeftX="-0.1" WidgetBottomLeftY="0.2" WidgetBottomRightX="21.7" WidgetBottomRightY="0.2">
+          <img id="u2252p002_img" class="img " src="images/楼宇基本信息配置/u2252p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u2253" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2254" class="compound ax_default arrow" WidgetHeight="173" WidgetWidth="78" CompoundMode="true">
+        <img id="u2254_img" class="singleImg img " src="images/楼宇基本信息配置/u2254.png"/>
+        <div id="u2254p000" class="ax_vector_shape" WidgetTopLeftX="0.213483866687172" WidgetTopLeftY="-4.57491381268493" WidgetTopRightX="0.482739615932021" WidgetTopRightY="-0.270544297497658" WidgetBottomLeftX="-0.909677409523081" WidgetBottomLeftY="0.501247459937518" WidgetBottomRightX="-0.640421660278231" WidgetBottomRightY="4.80561697512479">
+          <img id="u2254p000_img" class="img " src="images/楼宇基本信息配置/u2254p000.png"/>
+        </div>
+        <div id="u2254p001" class="ax_vector_shape" WidgetTopLeftX="-2.01201754167807" WidgetTopLeftY="12.5040687228027" WidgetTopRightX="-2.44205908113243" WidgetTopRightY="-2.05978593055361" WidgetBottomLeftX="0.472742670383712" WidgetBottomLeftY="0.104537668535345" WidgetBottomRightX="0.0427011309293521" WidgetBottomRightY="-14.459316984821">
+          <img id="u2254p001_img" class="img " src="images/楼宇基本信息配置/u2254p001.png"/>
+        </div>
+        <div id="u2254p002" class="ax_vector_shape" WidgetTopLeftX="0" WidgetTopLeftY="-8.45" WidgetTopRightX="3.9" WidgetTopRightY="-8.45" WidgetBottomLeftX="0" WidgetBottomLeftY="0.2" WidgetBottomRightX="3.9" WidgetBottomRightY="0.2">
+          <img id="u2254p002_img" class="img " src="images/楼宇基本信息配置/u2254p002.png"/>
+        </div>
+        <!-- Unnamed () -->
+        <div id="u2255" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Shape) -->
+      <div id="u2256" class="ax_default arrow">
+        <img id="u2256_img" class="img " src="images/楼宇基本信息配置/u2256.png"/>
+        <!-- Unnamed () -->
+        <div id="u2257" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2258" class="ax_default _三级标题">
+        <div id="u2258_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2259" class="text">
+          <p><span>商铺总数</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2260" class="ax_default _三级标题">
+        <div id="u2260_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2261" class="text">
+          <p><span>95</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2262" class="ax_default _三级标题">
+        <div id="u2262_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2263" class="text">
+          <p><span>20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2264" class="ax_default _三级标题">
+        <div id="u2264_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2265" class="text">
+          <p><span>0</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2266" class="ax_default _三级标题">
+        <div id="u2266_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2267" class="text">
+          <p><span>25</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2268" class="ax_default _三级标题">
+        <div id="u2268_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2269" class="text">
+          <p><span>住户楼层</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2270" class="ax_default _三级标题">
+        <div id="u2270_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2271" class="text">
+          <p><span>5-32</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2272" class="ax_default _三级标题">
+        <div id="u2272_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2273" class="text">
+          <p><span>3-20</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2274" class="ax_default _三级标题">
+        <div id="u2274_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2275" class="text">
+          <p><span>1-32</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2276" class="ax_default _三级标题">
+        <div id="u2276_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2277" class="text">
+          <p><span>2-32</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2278" class="ax_default _三级标题">
+        <div id="u2278_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2279" class="text">
+          <p><span>每层住户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2280" class="ax_default _三级标题">
+        <div id="u2280_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2281" class="text">
+          <p><span>17</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2282" class="ax_default _三级标题">
+        <div id="u2282_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2283" class="text">
+          <p><span>4</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2284" class="ax_default _三级标题">
+        <div id="u2284_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2285" class="text">
+          <p><span>13</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2286" class="ax_default _三级标题">
+        <div id="u2286_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2287" class="text">
+          <p><span>5</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Horizontal Line) -->
+      <div id="u2288" class="ax_default arrow">
+        <img id="u2288_img" class="img " src="images/基本信息管理/u953.png"/>
+        <!-- Unnamed () -->
+        <div id="u2289" class="text" style="display:none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u2290" class="ax_default flow_shape">
+        <div id="u2290_div" class=""></div>
+        <!-- Unnamed () -->
+        <div id="u2291" class="text">
+          <p><span>选择小区</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
